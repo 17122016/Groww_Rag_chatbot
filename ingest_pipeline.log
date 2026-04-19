@@ -1,0 +1,24 @@
+
+==================================================
+STEP: Phase A: Scraping Service
+TIME: 2026-04-19 01:42:35
+==================================================
+
+Starting Scraper. Target URLs: 2
+[1/2] Processing: https://en.wikipedia.org/wiki/Mutual_fund
+  -> Saved successfully to wiki_Mutual_fund.txt
+[2/2] Processing: https://en.wikipedia.org/wiki/Exchange-traded_fund
+  -> Saved successfully to wiki_Exchange-traded_fund.txt
+
+Scraping complete! Metadata saved to C:\Users\91827\Downloads\Rag_chatbot\Implementation_Phases\data\raw\scraping_metadata.json
+
+SUCCESS: Phase A: Scraping Service completed.
+
+==================================================
+STEP: Phase B: Preprocessing Service
+TIME: 2026-04-19 01:42:40
+==================================================
+
+Preprocessing complete! Created 60 chunks in C:\Users\91827\Downloads\Rag_chatbot\Implementation_Phases\data\processed\chunks.json
+
+SUCCESS: Phase B: Preprocessing Service completed.
